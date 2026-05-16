@@ -1,15 +1,15 @@
 # Quiz App
 
-Simple full stack quiz application built with Node.js (Express) backend and a plain HTML/CSS/JavaScript frontend. This project uses in-memory question storage and is intended as a beginner college-style submission.
+Simple full stack quiz application built with Node.js (Express) backend and a plain HTML/CSS/JavaScript frontend. This project uses in-memory question storage.
 
 ## Features
 
-- Welcome screen with name entry and validation
+- Welcome screen with name entry
 - Subject selection (HTML, CSS, JavaScript, Python)
 - Question-by-question quiz interface
-- Question palette with status colors (answered / unanswered / review)
+- Question palette with status (answered / unanswered / review)
 - Save, Mark for Review, Clear, and Submit actions
-- Backend validation and scorecard with per-question review
+- Backend validation and scorecard with answers review
 
 ## Folder structure
 
@@ -39,12 +39,11 @@ npm install
 npm start
 ```
 
-2. Open the frontend by opening `quiz-app/frontend/index.html` in a browser. The frontend expects the backend at `http://localhost:4000`.
+2. Open the frontend by opening `quiz-app/frontend/index.html` in a browser or run it using live server. The frontend expects the backend at `http://localhost:4000`.
 
-Note: No database is required — questions are stored in memory in `questions.js`.
+Note: No database is required, questions are stored in memory in `questions.js`.
 
 ## Development notes
 
 - The frontend uses simple DOM updates and avoids large innerHTML blocks.
 - The backend exposes `GET /questions/:subject` (does not send answers) and `POST /submit` for score calculation.
-- This project is intentionally simple and beginner-friendly.
