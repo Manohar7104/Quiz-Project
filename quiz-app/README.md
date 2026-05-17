@@ -16,11 +16,11 @@ Simple full stack quiz application built with Node.js (Express) backend and a pl
 ```text
 quiz-app/
 ├── backend/
-│   ├── server.js      # Express server and API
-│   ├── questions.js   # In-memory questions and answers
+│   ├── server.js      # Express Server and API
+│   ├── questions.js   # Questions and Answers
 │   └── package.json
 ├── frontend/
-│   ├── index.html
+│   ├── index.html     # Frontend
 │   ├── style.css
 │   └── script.js
 └── README.md
