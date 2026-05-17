@@ -12,7 +12,7 @@ Simple full stack quiz application built with Node.js (Express) backend and a pl
 - Backend validation and scorecard with answers review
 
 ## Folder structure
-
+'''text
 quiz-app/
 ├── backend/
 │ ├── server.js # Express server and API
@@ -23,7 +23,7 @@ quiz-app/
 │ ├── style.css
 │ └── script.js
 └── README.md
-
+'''
 ## Installation
 
 1. Open a terminal in `quiz-app/backend`
