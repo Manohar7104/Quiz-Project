@@ -4,7 +4,7 @@ Simple full stack quiz application built with Node.js (Express) backend and a pl
 
 ## Features
 
-- Welcome screen with name entry
+- Welcome screen with name input
 - Subject selection (HTML, CSS, JavaScript, Python)
 - Question-by-question quiz interface
 - Question palette with status (answered / unanswered / review)
