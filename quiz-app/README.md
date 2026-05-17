@@ -40,7 +40,7 @@ npm install
 npm start
 ```
 
-2. Open the frontend by opening `quiz-app/frontend/index.html` in a browser or run it using live server. The frontend expects the backend at `http://localhost:4000`.
+2. Open the frontend by opening `quiz-app/frontend/index.html` in a browser or run it using live server in VS Code. The frontend expects the backend at `http://localhost:4000`.
 
 Note: No database is required, questions are stored in memory in `questions.js`.
 
